@@ -229,6 +229,78 @@ padding: 20px;
 
 
 
+
+/*Scores Area Starts Here*/
+.result_container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+.score_title{
+    /* display: grid;
+    grid-template-columns: 1fr 2fr 7fr;
+    align-items: center; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted silver;
+}
+
+.score_title img{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.score_area{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.score_area h4{
+    display: block;
+}
+
+.total_scores{
+    margin-bottom: 50px;
+}
+
+.total_scores p{
+    margin:10px 0;
+    font-size: 12px;
+}
+
+.single_score{
+display: flex;
+align-items: center;
+/* display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center; */
+}
+
+.country_img{
+    margin-right: 10px;
+}
+
+.country_name{
+    margin-right: 50px;
+    width: 40px;
+}
+
+.mr{
+    border-right: 1px dotted silver;
+}
+
+.ml {
+    margin-left: 235px;
+}
+/*Scores Area Ends Here*/
+
+
+
+
 /*Footer Area Starts Here*/
 
 footer{
@@ -320,18 +392,22 @@ footer{
     .players{
         display: grid;
         grid-template-columns: 1fr ;
-        grid-gap: 2%;
+        grid-gap: .5%;
     }
 
 
-    .highlight{
-        margin-top: 1500px;
+    .highlight {
+        margin-top: 200px;
     }
 
     .highlight_area{
         display: grid;
         grid-template-columns: 1fr;
     
+    }
+
+    .right_highlight img{
+        margin-top: 20px;
     }
 
     .extra_top{
@@ -343,6 +419,23 @@ footer{
         grid-template-columns: 1fr;
         align-items: center;
     }
+
+    .score_area{
+        grid-template-columns: 1fr;
+    }
+
+    .ml {
+        margin-left: 0;
+    }
+
+    .mr {
+        border-right: none;
+    }
+
+    .hero_area {
+        height: 100vh;
+    }
+
 
 
 
@@ -366,20 +459,31 @@ footer{
        .players{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 2%;
-    }
+        grid-gap: 1%;
+    }   
 
     .highlight{
-        margin-top: 200px;
+        margin-top: 20px;
     }
 
     .extra_top{
         margin-top: 200px;
     }
 
+    .ml {
+        margin-left: 50px;
+    }
 
+    .single_score {
+        margin-left: 30px;
+    }
+    .total_scores p{
+        margin-left: 30px;
+    }
 
-
+    .right_highlight img{
+        margin-top: 120px;
+    }
 
 
 
